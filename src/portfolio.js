@@ -24,7 +24,7 @@ const greeting = {
     name: "Jimmy Le",
     message: "Computer Science junior with experience in full-stack development. Currently working as a software developer at my university building web applications.",
     basedLocation: "Ames, IA",
-    resumeLink: "https://drive.google.com/file/d/1bnXbPq-UxP6XGMZXTl7NHc4SW_cAQvGJ/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: "https://drive.google.com/file/d/19tiMLBZnQE6cdr3qEbXJp75ptELXlYHA/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/isulogotransparent.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
