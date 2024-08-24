@@ -18,7 +18,7 @@ const transitions = {
 // Splash Screen
 const splashScreen = false // recommended: for best behavior after refresh
 
-// --- 👋 Greeting Section ---
+// --- Greeting Section ---
 const greeting = {
     intro: "",
     name: "Jimmy Le",
@@ -40,7 +40,7 @@ const socialMediaLinks = {
     xtwitter: ""
 } // to add any additional social media links check out the README.md or src/icons.js file
 
-// --- 😎 About Section ---
+// --- About Section ---
 const about = {
     autobiography: [
         "My name is Jimmy Le, and I'm a junior studying computer science at Iowa State University. My interest in problem-solving began with AP Computer Science A in high school. After my freshman year at Iowa State, I underwent spinal fusion surgery, which limited my ability to pursue academic and professional opportunities during that summer. However, I have mostly recovered and started working as a part-time software developer for my university during my sophomore year. Additionally, from April to June 2024, I taught a section of 12 students using Stanford's CS106A curriculum through Stanford's Code in Place program.",
@@ -60,7 +60,7 @@ const about = {
     photo3Link: "images/jimmyicpc.JPG"
 }
 
-// --- 🛡️ Experience Section ---
+// --- Experience Section ---
 const experiences = [
     {
         position: "Student Software Developer",
@@ -94,7 +94,7 @@ const experiences = [
     }
 ]
 
-// --- 💻 Project Section ---
+// --- Project Section ---
 const works = [
     {
         projectName: "CyMarket",
@@ -150,7 +150,7 @@ const works = [
 
 const archiveLink = "https://github.com/feifyKike?tab=repositories"
 
-// --- 📭 Contact Section ---
+// --- Contact Section ---
 // 2 Options available - Choose 1
 const contact = {
     externalLink: {

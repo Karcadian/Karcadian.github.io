@@ -10,11 +10,14 @@
                     alt="University Logo"
                 />
             </div>
-
-            <img
-                :class="['w-64 h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 rounded-full shadow-md transition-all motion-reduce:transition-none duration-500 delay-[400ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']"
-                :src="getImageUrl(content.portraitLink)"
-            />
+            <div class="relative w-44 h-44 md:w-60 md:h-60 lg:w-80 lg:h-80 overflow-hidden rounded-full">
+                <img
+                    :class="['w-full h-full object-cover rounded-full transition-all motion-reduce:transition-none duration-500 delay-[400ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']"
+                    :src="getImageUrl(content.portraitLink)"
+                    alt="Profile Picture"
+                    class="object-cover object-center"
+                />
+            </div>
             <div class="flex flex-col space-y-2">
                 <p :class="['text-lg lg:text-xl transition-all motion-reduce:transition-none duration-500 delay-[500ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">{{ content.intro }}</p>
                 <h1 :class="['text-2xl lg:text-4xl font-bold transition-all motion-reduce:transition-none duration-500 delay-[550ms]', showTransition ? 'translate-y-0 opacity-1' : '-translate-y-4 opacity-0']">{{ content.name }}</h1>
@@ -44,5 +47,10 @@ let getImageUrl = (path) => {
 /* Ensure the section is positioned correctly */
 section {
     position: relative;
+}
+
+.adjust-image {
+    position: relative;
+    top: -20%; /* Adjust as needed */
 }
 </style>
