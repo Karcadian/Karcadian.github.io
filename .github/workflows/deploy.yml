@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - main  # Triggers workflow on pushes to the main branch
   workflow_dispatch:
 
 jobs:
@@ -33,7 +33,7 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'  # Ensure deployment happens only for the main branch
 
     steps:
       - name: Download artifact
@@ -46,4 +46,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages  # Deploy to the gh-pages branch
           publish_dir: ./dist
