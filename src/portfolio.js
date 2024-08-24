@@ -120,13 +120,8 @@ const works = [
             {
                 label: "",
                 type: "git",
-                url: ""
+                url: "https://github.com/Karcadian/ReactWeatherApp"
             },
-            {
-                label: "",
-                type: "external",
-                url: ""
-            }
         ],
         imageLink: "images/reactweatherapp.png",
         alignLeft: true
