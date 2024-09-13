@@ -71,6 +71,7 @@ const experiences = [
         duration: "Nov. 2023 - Present",
         bulletPoints: [
             "Develop full-stack web applications for Iowa State University's clients in an Agile environment, contributing to improved user experiences and streamlined data management.",
+            "Led the refactoring of Iowa State University’s student toolkit website, MyState, improving code maintainability and reusability, benefiting over 20,000 users.",
             "Reviewed and improved training methods through collaboration with the ISU Web Development team by updating outdated documentation.",
             "Created two address book applications, allowing users to make teams, create contacts, and safely log in using ISU's Okta API."
         ],
@@ -86,6 +87,7 @@ const experiences = [
         duration: "Apr. 2024 - June 2024",
         bulletPoints: [
             "Prepared and taught 50-minute weekly sections in Python following Stanford's CS106A curriculum to a section of 12 students.",
+            "Evaluated student progress through assignments and coding exercises, providing constructive feedback to support their growth and understanding of programming concepts.",
             "Helped answer student concerns on forums, fostered a welcoming environment, and guided students toward forming correct solutions to problems.",
             "Checked in with students to ensure they understood concepts, lessons, and dedicated extra time 1:1 for extra review."
         ],
