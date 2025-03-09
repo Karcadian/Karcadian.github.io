@@ -22,9 +22,9 @@ const splashScreen = false // recommended: for best behavior after refresh
 const greeting = {
     intro: "",
     name: "Jimmy Le",
-    message: "Computer Science junior with experience in full-stack development. Currently working as a software developer at my university building web applications.",
+    message: "Head TA at Code in Place and Algorithms TA at Iowa State University. Interning as a Software Engineer Intern at Principal Financial Group in Summer 2025.", 
     basedLocation: "Ames, IA",
-    resumeLink: "https://drive.google.com/file/d/14fmQWqnMF1bzvPi7pTkAoRtEP-q9Idhl/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: "https://drive.google.com/file/d/1DSiVvvn_d0hKfUNQpix3bxvIMcxq2Vdn/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/isulogotransparent.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
     github: "https://github.com/Karcadian",
-    linkedin: "https://www.linkedin.com/in/jimmy-le-155695241/",
+    linkedin: "https://www.linkedin.com/in/jimmyle-/",
     medium: "",
     stackoverflow: "",
     xtwitter: ""
@@ -43,17 +43,16 @@ const socialMediaLinks = {
 // --- About Section ---
 const about = {
     autobiography: [
-        "My name is Jimmy Le, and I'm a junior studying computer science at Iowa State University. My interest in problem-solving began with AP Computer Science A in high school. After my freshman year at Iowa State, I underwent spinal fusion surgery, which limited my ability to pursue academic and professional opportunities during that summer. However, I have mostly recovered and started working as a part-time software developer for my university during my sophomore year. Additionally, from April to June 2024, I taught a section of 12 students using Stanford's CS106A curriculum through Stanford's Code in Place program.",
+        "Hi, I'm Jimmy Le, a senior studying Computer Science at Iowa State University. I'm particularly interested in healthtech, edtech, and AI/ML! ",
     ], // Separated items are paragraphs
     techStack: [
-        "Java",
         "Python",
+        "Java",
         "JavaScript",
         "PHP",
-        "C/C++",
-        "MySQL",
-        "React",
-        "Vue.js"
+        "C",
+        "C++",
+        "SQL"
     ],
     photo1Link: "images/jimmymarmot.jpg",
     photo2Link: "images/jimmybird.jpg",
@@ -63,19 +62,43 @@ const about = {
 // --- Experience Section ---
 const experiences = [
     {
-        position: "Student Software Developer",
+        position: "Head Teaching Assistant",
         company: {
-            name: "ISU",
-            link: "https://www.it.iastate.edu/teams/development-integration"
+            name: "Stanford Code in Place",
+            link: "https://codeinplace.stanford.edu/team"
         },
-        duration: "Nov. 2023 - Present",
+        duration: "Mar. 2025 - Present",
         bulletPoints: [
-            "Develop full-stack web applications for Iowa State University's clients in an Agile environment, contributing to improved user experiences and streamlined data management.",
-            "Led the refactoring of Iowa State University’s student toolkit website, MyState, improving code maintainability and reusability, benefiting over 20,000 users.",
-            "Reviewed and improved training methods through collaboration with the ISU Web Development team by updating outdated documentation.",
-            "Created two address book applications, allowing users to make teams, create contacts, and safely log in using ISU's Okta API."
-        ],
-        hashtags: [
+            "Led outreach efforts to introduce CiP to beginners, presenting at non-CS university clubs and public libraries.",
+            "Reached out to 500+ public libraries in Iowa and 10+ clubs at Iowa State University.",
+            "Moderated forums and resolved conflicts in a large-scale learning environment with 10,000+ students and 700+ section leaders.",
+            "Provided backup instruction, covering 50-minute Python sections for absent Section Leaders.",
+            "Planned and organized events, including an 'Intro to Technical Interviews' session for students exploring tech careers."
+        ]
+    },
+    {
+        position: "Algorithms Teaching Assistant",
+        company: {
+            name: "Iowa State University"
+        },
+        duration: "Dec. 2024 - Present",
+        bulletPoints: [
+            "Led weekly recitations for a 70+ student section on algorithmic problem-solving.",
+            "Held weekly office hours and moderated course forums, addressing student questions.",
+            "Guided students by breaking down their thought process and asking high-level questions.",
+            "Graded 150+ assignments per homework cycle, providing constructive feedback."
+        ]
+    },
+    {
+        position: "Full-Stack Software Engineer",
+        company: {
+            name: "Iowa State University"
+        },
+        duration: "Nov. 2023 - Jan. 2025",
+        bulletPoints: [
+            "Built two PHP/Laravel address book apps for team creation, contact management, and Okta API login.",
+            "Refactored ISU's student toolkit website, MyState, benefiting 20,000+ users.",
+            "Updated outdated Confluence documentation in collaboration with ISU's Web Dev team."
         ]
     },
     {
@@ -86,22 +109,21 @@ const experiences = [
         },
         duration: "Apr. 2024 - June 2024",
         bulletPoints: [
-            "Prepared and taught 50-minute weekly sections in Python following Stanford's CS106A curriculum to a section of 12 students.",
-            "Evaluated student progress through assignments and coding exercises, providing constructive feedback to support their growth and understanding of programming concepts.",
-            "Helped answer student concerns on forums, fostered a welcoming environment, and guided students toward forming correct solutions to problems.",
-            "Checked in with students to ensure they understood concepts, lessons, and dedicated extra time 1:1 for extra review."
-        ],
-        hashtags: [
+            "Taught weekly 50-minute Python sections following Stanford's CS106A curriculum.",
+            "Provided feedback on assignments and coding exercises to reinforce programming concepts.",
+            "Moderated forums and guided students toward correct solutions.",
+            "Offered 1:1 assistance to ensure student comprehension."
         ]
     }
-]
+];
+
 
 // --- Project Section ---
 const works = [
     {
         projectName: "CyMarket",
         yearCompleted: "Jan. 2024 - May 2024",
-        description: "Developed and led a team of four in an Android application simulating a marketplace specialized for Iowa State University-affiliated users.",
+        description: "An Android application simulating a marketplace specialized for Iowa State University-affiliated users.",
         techStack: "Java, Springboot, MySQL",
         links: [
             {
@@ -114,35 +136,15 @@ const works = [
         alignLeft: false
     },
     {
-        projectName: "React Weather App",
-        yearCompleted: "Nov. 2023",
-        description: "Developed a responsive React Weather Application, allowing users to retrieve 7-day forecasts for cities of their choice. Incorporated React, JavaScript, and GeoDB API to optimize the search functionality for precise weather data. Integrated Node.js with OpenWeather API for real-time weather data, deploying the app on GitHub Pages for convenient access. Designed a user-friendly interface focusing on responsiveness, delivering a seamless experience for users exploring weather forecasts for diverse cities.",
-        techStack: "React, JavaScript, Node.js, HTML/CSS",
+        projectName: "CJ Secret Santa",
+        yearCompleted: "Dec. 2024",
+        description: "Jimmy Le, Cameron Mohne",
+        techStack: "React, Flask, MySQL",
         links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/Karcadian/ReactWeatherApp"
-            },
-        ],
-        imageLink: "images/reactweatherapp.png",
-        alignLeft: true
-    },
-    {
-        projectName: "Secret Santa Website",
-        yearCompleted: "Nov. 2022 - Dec. 2022",
-        description: "In a team of two, developed a user-centric front-end with HTML/CSS and integrated it with a Python/Flask back-end, creating an intuitive interface for Secret Santa event management.",
-        techStack: "HTML, CSS, SQL",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/icl0ud/secretsanta2022"
-            },
             {
                 label: "",
                 type: "external",
-                url: "https://cameronmohne.pythonanywhere.com/home"
+                url: "https://www.cj-secret-santa.com/"
             }
         ],
         imageLink: "images/secretsanta.png",

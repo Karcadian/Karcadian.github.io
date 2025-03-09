@@ -8,7 +8,7 @@
             <div class="order-2 xl:order-none">
                 <p v-for="paragraph in content.autobiography">{{ paragraph }}<br/><br/></p>
                 <div>
-                    <p class="pb-3">Technologies and Languages</p>
+                    <p class="pb-3">Programming Languages:</p>
                     <ul class="flow flow-col list-disc pl-4 sm:grid sm:grid-rows-2 sm:grid-flow-col">
                         <li v-for="tech in content.techStack" class="pl-0.25">{{ tech }}</li>
                     </ul>
