@@ -90,18 +90,6 @@ const experiences = [
         ]
     },
     {
-        position: "Full-Stack Software Engineer",
-        company: {
-            name: "Iowa State University"
-        },
-        duration: "Nov. 2023 - Jan. 2025",
-        bulletPoints: [
-            // "Built two PHP/Laravel address book apps for team creation, contact management, and Okta API login.",
-            // "Refactored ISU's student toolkit website, MyState, benefiting 20,000+ users.",
-            // "Updated outdated Confluence documentation in collaboration with ISU's Web Dev team."
-        ]
-    },
-    {
         position: "Section Leader",
         company: {
             name: "Stanford Code in Place",
@@ -114,7 +102,19 @@ const experiences = [
             // "Moderated forums and guided students toward correct solutions.",
             // "Offered 1:1 assistance to ensure student comprehension."
         ]
-    }
+    },
+    {
+        position: "Full-Stack Software Engineer",
+        company: {
+            name: "Iowa State University"
+        },
+        duration: "Nov. 2023 - Jan. 2025",
+        bulletPoints: [
+            // "Built two PHP/Laravel address book apps for team creation, contact management, and Okta API login.",
+            // "Refactored ISU's student toolkit website, MyState, benefiting 20,000+ users.",
+            // "Updated outdated Confluence documentation in collaboration with ISU's Web Dev team."
+        ]
+    },
 ];
 
 
