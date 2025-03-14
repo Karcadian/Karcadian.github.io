@@ -69,11 +69,11 @@ const experiences = [
         },
         duration: "Mar. 2025 - Present",
         bulletPoints: [
-            "Led outreach efforts to introduce CiP to beginners, presenting at non-CS university clubs and public libraries.",
-            "Reached out to 500+ public libraries in Iowa and 10+ clubs at Iowa State University.",
-            "Moderated forums and resolved conflicts in a large-scale learning environment with 10,000+ students and 700+ section leaders.",
-            "Provided backup instruction, covering 50-minute Python sections for absent Section Leaders.",
-            "Planned and organized events, including an 'Intro to Technical Interviews' session for students exploring tech careers."
+            // "Led outreach efforts to introduce CiP to beginners, presenting at non-CS university clubs and public libraries.",
+            // "Reached out to 500+ public libraries in Iowa and 10+ clubs at Iowa State University.",
+            // "Moderated forums and resolved conflicts in a large-scale learning environment with 10,000+ students and 700+ section leaders.",
+            // "Provided backup instruction, covering 50-minute Python sections for absent Section Leaders.",
+            // "Planned and organized events, including an 'Intro to Technical Interviews' session for students exploring tech careers."
         ]
     },
     {
@@ -83,10 +83,10 @@ const experiences = [
         },
         duration: "Dec. 2024 - Present",
         bulletPoints: [
-            "Led weekly recitations for a 70+ student section on algorithmic problem-solving.",
-            "Held weekly office hours and moderated course forums, addressing student questions.",
-            "Guided students by breaking down their thought process and asking high-level questions.",
-            "Graded 150+ assignments per homework cycle, providing constructive feedback."
+            // "Led weekly recitations for a 70+ student section on algorithmic problem-solving.",
+            // "Held weekly office hours and moderated course forums, addressing student questions.",
+            // "Guided students by breaking down their thought process and asking high-level questions.",
+            // "Graded 150+ assignments per homework cycle, providing constructive feedback."
         ]
     },
     {
@@ -96,9 +96,9 @@ const experiences = [
         },
         duration: "Nov. 2023 - Jan. 2025",
         bulletPoints: [
-            "Built two PHP/Laravel address book apps for team creation, contact management, and Okta API login.",
-            "Refactored ISU's student toolkit website, MyState, benefiting 20,000+ users.",
-            "Updated outdated Confluence documentation in collaboration with ISU's Web Dev team."
+            // "Built two PHP/Laravel address book apps for team creation, contact management, and Okta API login.",
+            // "Refactored ISU's student toolkit website, MyState, benefiting 20,000+ users.",
+            // "Updated outdated Confluence documentation in collaboration with ISU's Web Dev team."
         ]
     },
     {
@@ -109,10 +109,10 @@ const experiences = [
         },
         duration: "Apr. 2024 - June 2024",
         bulletPoints: [
-            "Taught weekly 50-minute Python sections following Stanford's CS106A curriculum.",
-            "Provided feedback on assignments and coding exercises to reinforce programming concepts.",
-            "Moderated forums and guided students toward correct solutions.",
-            "Offered 1:1 assistance to ensure student comprehension."
+            // "Taught weekly 50-minute Python sections following Stanford's CS106A curriculum.",
+            // "Provided feedback on assignments and coding exercises to reinforce programming concepts.",
+            // "Moderated forums and guided students toward correct solutions.",
+            // "Offered 1:1 assistance to ensure student comprehension."
         ]
     }
 ];
