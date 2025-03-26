@@ -163,7 +163,7 @@ const contact = {
             "",
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "jimmyle@iastate.edu", // email takes precedance
+            email: "jimmyle@iastate.edu", // email takes precedence
             other: ""
         },
         responseTimeMessage: ""
