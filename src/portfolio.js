@@ -22,7 +22,7 @@ const splashScreen = false // recommended: for best behavior after refresh
 const greeting = {
     intro: "",
     name: "Jimmy Le",
-    message: "Head TA at Code in Place and Algorithms TA at Iowa State University. Interning as a Software Engineer Intern at Principal Financial Group in Summer 2025.", 
+    message: "Head TA at Code in Place and Algorithms TA at Iowa State University. Interning as a Software Engineer at Principal Financial Group in Summer 2025.", 
     basedLocation: "Ames, IA",
     resumeLink: "https://drive.google.com/file/d/1DSiVvvn_d0hKfUNQpix3bxvIMcxq2Vdn/view?usp=sharing", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
